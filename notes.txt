@@ -1,3 +1,5 @@
 https://classroom.google.com/c/NTU1ODIwMDYxODA2/a/NTUyNzkxMjg2NDgx/details
 https://getbootstrap.com/docs/5.0/examples/cheatsheet/
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
+first code >> loading screen, deleted on complete load
