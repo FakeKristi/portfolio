@@ -1,0 +1,52 @@
+.text-1 {
+    font-size: .5rem;
+}
+
+.text-2 {
+    font-size: 1.5rem;
+}
+
+.text-3 {
+    font-size: 2rem;
+}
+
+.text-4 {
+    font-size: 3rem;
+}
+
+.text-5 {
+    font-size: 4rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.serif {
+    font-family: sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.row-1 {
+    min-height: 100px;
+}
+
+.row-2 {
+    min-height: 200px;
+}
+
+.row-3 {
+    min-height: 300px;
+}
+
+.row-4 {
+    min-height: 400px;
+}
+
+.row-5 {
+    min-height: 500px;
+}
