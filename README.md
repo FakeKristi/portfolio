@@ -1,3 +1,3 @@
 # portfolio
 
-(preview)[https://somekristi.github.io/portfolio/]
+[preview](https://somekristi.github.io/portfolio/)
