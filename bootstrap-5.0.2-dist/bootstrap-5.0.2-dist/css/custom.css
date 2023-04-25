@@ -28,4 +28,10 @@
 
 .center {
     text-align: center;
+    justify-content: center;
+}
+
+.center-v{
+    display: flex;
+    align-items: center;
 }
