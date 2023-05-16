@@ -1,9 +1,22 @@
 1 main page(4 bloky) 
 5 sub pages          
 galerie              
-navigace             Ӕ
+navigace             
 dokumentace(zdroje)  
 bootstrap 5          
 responzive           
 hosted               
 Přehledné uspořádání do složek. Správné pojmenovávání souborů a využití relativních cest.
+
+
+
+zájmy
+    zjišťování jak fungují věci (solar,transistor,rsa,bit correction)
+    
+    anime
+
+    lyžování
+
+    programování
+        jaké jazyky ovládám
+        co jsem naprogramoval
