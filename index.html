@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/doggo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="media/doggo.png" type="image/x-icon">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body class="dark text-white">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand">
-                <img src="img/doggo.png" alt="dogo logo" height="32px">
+            <a class="navbar-brand" href="index.html">
+                <img src="media/doggo.png" alt="dogo logo" height="32px">
             </a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapser">
                 <span class="navbar-toggler-icon"></span>
@@ -21,92 +21,134 @@
             <div class="collapse navbar-collapse" id="collapser">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active">Home</a>
+                        <a href="index.html" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Programování</a>
+                        <a href="PAGES/page1.html" class="nav-link">Programování</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Zvědavost</a>
+                        <a href="PAGES/page2.html" class="nav-link">Zvědavost</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Lyžování</a>
+                        <a href="PAGES/page3.html" class="nav-link">Lyžování</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="row">
-        <div class="col-lg-3" style="border-right: solid rgb(214, 214, 214);">
-            <div class="container-fluid">
-                <h5>Obsah stránky</h5>
-                <a href="">    
-                    link1
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <h2 class="text-center">
-                Portfolio
-            </h2>
-            <div class="container-fluid mb-3">
-                <h3 id="intro">
-                    Kristián Maas
-                </h3>
-                <ul>
-                    <li>
-                        IT student na SOŠ rokycany
-                    </li>
-                    <li>
-                        programátor
-                    </li>
-                </ul>
-            </div>
-            <div class="container-fluid mb-3">
-                <h3>
-                    Programování
-                </h3>
-                <p class="m-0">
-                    Jazyky, které ovládám:
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 p-0" style="border-right: solid rgb(214, 214, 214);">
+                <div class="container">
+                    <h5>Obsah stránky</h5>
                     <ul>
                         <li>
-                            python
+                            <a href="#KM" class="text-white">Kristián Maas</a>
                         </li>
                         <li>
-                            php
+                            <a href="#prg" class="text-white">Programování</a>
                         </li>
                         <li>
-                            js
+                            <a href="#curious" class="text-white">Moje zvědavost</a>
+                        </li>
+                        <li>
+                            <a href="#ski" class="text-white">Lyžování</a>
                         </li>
                     </ul>
-                </p>
-                <p>projekty</p>
-            </div>
-            <div class="container-fluid">
-                <p>zjišťování jak fungují věci (+MoCan animace)</p>
-            </div>
-            <div class="container-fluid">
-                <p>lyžování</p>
-            </div>
-        </div>
-        <div class="col-lg-3">
-
-        </div>
-    </div>
-    <div class="row bg-dark">
-        <div class="container p-5">
-            <div class="row text-center">
-                <div class="col-lg-6 footer-text">
-                    Made by Kristián Maas 2023
-                </div>
-                <div class="col-lg-6 footer-text">
-                    <a href="https://github.com/SomeKristi" target="_blank" class="footer-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                      </svg> github</a>
                 </div>
             </div>
+            <div class="col-md-6 p-0">
+                <h2 class="text-center">
+                    Portfolio
+                </h2>
+                <div class="container-fluid mb-5">
+                    <h3 id="KM">
+                        Kristián Maas
+                    </h3>
+                    <ul class="m-0">
+                        <li>
+                            IT student na SOŠ rokycany
+                        </li>
+                        <li>
+                            programátor
+                        </li>
+                        <li>
+                            trochu grafik a animátor
+                        </li>
+                    </ul>
+                    <video width="400" height="225" autoplay muted loop class="img-fluid">
+                        <source src="media/computer.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="container-fluid mb-5">
+                    <h3 id="prg">
+                        Programování
+                    </h3>
+                    <p class="m-0">
+                        Jazyky, které ovládám:
+                        <ul class="m-0">
+                            <li>
+                                python
+                            </li>
+                            <li>
+                                php
+                            </li>
+                            <li>
+                                js
+                            </li>
+                        </ul>
+                        Python umím aktuálně nejlépe.
+                    </p>
+                    <p class="m-0">
+                        Zkušenosti
+                        <ul class="m-0">
+                            <li>
+                                2x Hakaton
+                            </li>
+                            <li>
+                                Webrace
+                            </li>
+                            <li>
+                                vlastní experimentace
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="container-fluid mb-5">
+                    <h3 id="curious">
+                        Moje zvědavost
+                    </h3>
+                    <p>
+                        Když se nudím tak mám nahodné myšlenky, jako třeba "Jak funguje RSA?", "Jak fungují transistory?", "Jak fungují solární panely?", "Jak funguje dopočítávání vadně přečtených bitů v QR kodech?"
+                    </p>
+                </div>
+                <div class="container-fluid mb-5">
+                    <h3 id="ski">
+                        Lyžování
+                    </h3>
+                    <p class="m-0">
+                        Také velice rád lyžuji.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 p-0" style="border-left: solid rgb(214, 214, 214);">
+                
+            </div>
         </div>
     </div>
-    <script src="bootstrap.min.js"></script>
+    <div class="container-fluid py-5 bg-dark">
+        <div class="row text-center">
+            <div class="col-md-6 footer-text p-0">
+                Made by Kristián Maas 2023
+            </div>
+            <div class="col-md-6 footer-text p-0">
+                <a href="https://github.com/SomeKristi" target="_blank" class="footer-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg> github</a>
+            </div>
+        </div>
+    </div>
+    <script src="JS/bootstrap.min.js"></script>
 </body>
 </html>
