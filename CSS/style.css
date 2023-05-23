@@ -9,3 +9,6 @@
     color: #818589;
     text-decoration: none;
 }
+html.dark {
+    color-scheme: dark;
+}   
