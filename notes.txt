@@ -6,4 +6,4 @@ dokumentace(zdroje)
 bootstrap 5          
 responzive           
 hosted               
-Přehledné uspořádání do složek. Správné pojmenovávání souborů a využití relativních cest.
+Přehledné uspořádání do složek. Správné pojmenovávání souborů a využití relativních cest.   
