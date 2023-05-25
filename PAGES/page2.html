@@ -33,7 +33,7 @@
                         <a href="page3.html" class="nav-link">Lyžování</a>
                     </li>
                     <li class="nav-item">
-                        <a href="page4.html" class="nav-link disabled">link 4</a>
+                        <a href="page4.html" class="nav-link">Galerie</a>
                     </li>
                     <li class="nav-item">
                         <a href="page5.html" class="nav-link disabled">link 5</a>
@@ -50,7 +50,16 @@
                         <div class="card-header"><h5>Obsah stránky</h5></div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item bg-dark">
-                                <a href="#" class="text-white">link</a>
+                                <a href="#RSA" class="text-white">RSA</a>
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <a href="#pnp" class="text-white">Transistory</a>
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <a href="#solar" class="text-white">Solární panely</a>
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <a href="#QR" class="text-white">QR error correction</a>
                             </li>
                         </ul>
                     </div>    
@@ -61,7 +70,81 @@
                     Moje zvědavost
                 </h2>
                 <div class="container-fluid mb-5">
-
+                    <h3 id="RSA">
+                        RSA šifrování
+                    </h3>
+                    <h5>
+                        O RSA
+                    </h5>
+                    <p>
+                        RSA je šifra pojmenovaná podle svých tvůrců Rivest, Shamir, Adleman. Je to asymetrická metoda, což znamená že se použivají osobní a veřejny klíč, šifrace jednnoho může být jen dešifrovaná druhým. 
+                    </p>
+                    <h5>
+                        Jak se generují klíče
+                    </h5>
+                    <p class="m-0">
+                        vypereme si dvě prvočísla P a Q<br>
+                        P = prvočíslo<br>
+                        Q = prvočíslo<br><br>
+                        
+                        uděláme z nich produkt (násobení) N<br>
+                        N = P*Q<br><br>
+                        
+                        uděláme také uděláme Eulerovu funkci T<br>
+                        T = (P-1)*(Q-1)<br><br>
+                        
+                        E (veřejný klíč)<br>
+                        většinou se používá číslo 65537, ale záleží na požadované velikosti
+                    </p>
+                    <ul>
+                        <li>
+                            musí být prvočíslo
+                        </li>
+                        <li>
+                            musí být méně než T
+                        </li>
+                        <li>
+                            nesmí být dělitel T
+                        </li>
+                    </ul>
+                    <p class="m-0">    
+                        D (osobní klíč)<br>
+                        musí splňovat podminku
+                    </p>
+                    <ul>
+                        <li>
+                            (D*E) mod T = 1
+                        </li>
+                    </ul>
+                    <h5>
+                        Jak použít Klíče
+                    </h5>
+                    <p>
+                        pomoci tohoto vzorečku<br>
+                        (hodnota^klíč) mod N
+                    </p>
+                </div>
+                <div class="container-fluid mb-5">
+                    <h3 id="pnp">
+                        transistory
+                    </h3>
+                    <div>
+                        <video width="400" height="225" autoplay muted class="img-fluid">
+                            <source src="../media/transistor.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="footer-text">Made by Kristián Maas 2023</p>
+                    </div>
+                </div>
+                <div class="container-fluid mb-5">
+                    <h3 id="solar">
+                        solární panely
+                    </h3>
+                </div>
+                <div class="container-fluid mb-5">
+                    <h3 id="QR">
+                        error correction v QR kódech
+                    </h3>
                 </div>
 
             </div>
