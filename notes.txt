@@ -7,3 +7,22 @@ bootstrap 5
 responzive           
 hosted               
 Přehledné uspořádání do složek. Správné pojmenovávání souborů a využití relativních cest.   
+
+dokumentace obsahuje zrdoje grafiky a postup tvorby
+
+
+
+Dokumentace:
+
+veškerou grafiku jsem dělal sám
+
+
+postup tvorby
+
+1 vytvořil jsem si github repositář
+2 stáhnul jsem si Bootstrap v5.0.2
+3 ponechal bootstrap.min.css a bootstrap.min.js, zbytek vymazal
+4 vytvořil index.html
+5 napsal navbar
+6 naplánoval rozložení stránky 2:8:2 sidebar:mainContent:sidebar
+7 

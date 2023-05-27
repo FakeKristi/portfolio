@@ -83,33 +83,33 @@
                         Jak se generují klíče
                     </h5>
                     <p class="m-0">
-                        vypereme si dvě prvočísla P a Q<br>
+                        Vypereme si dvě prvočísla P a Q.<br>
                         P = prvočíslo<br>
                         Q = prvočíslo<br><br>
                         
-                        uděláme z nich produkt (násobení) N<br>
+                        Uděláme z nich produkt (násobení) N.<br>
                         N = P*Q<br><br>
                         
-                        uděláme také uděláme Eulerovu funkci T<br>
+                        Uděláme také uděláme Eulerovu funkci T.<br>
                         T = (P-1)*(Q-1)<br><br>
                         
                         E (veřejný klíč)<br>
-                        většinou se používá číslo 65537, ale záleží na požadované velikosti
+                        Většinou se používá číslo 65537, ale záleží na požadované velikosti.
                     </p>
                     <ul>
                         <li>
-                            musí být prvočíslo
+                            Musí být prvočíslo.
                         </li>
                         <li>
-                            musí být méně než T
+                            Musí být méně než T.
                         </li>
                         <li>
-                            nesmí být dělitel T
+                            Nesmí být dělitel T.
                         </li>
                     </ul>
                     <p class="m-0">    
                         D (osobní klíč)<br>
-                        musí splňovat podminku
+                        Musí splňovat podminku.
                     </p>
                     <ul>
                         <li>
@@ -117,34 +117,139 @@
                         </li>
                     </ul>
                     <h5>
-                        Jak použít Klíče
+                        Jak použít klíče
                     </h5>
                     <p>
-                        pomoci tohoto vzorečku<br>
+                        Dosadíme do tohoto vzorečku.<br>
                         (hodnota^klíč) mod N
                     </p>
                 </div>
                 <div class="container-fluid mb-5">
                     <h3 id="pnp">
-                        transistory
+                        tranzistory
                     </h3>
+                    <h5>
+                        NPN trnazistor
+                    </h5>
                     <div>
                         <video width="400" height="225" autoplay muted class="img-fluid">
                             <source src="../media/transistor.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <p class="footer-text">Made by Kristián Maas 2023</p>
+                        <p class="footer-text m-0">Made by Kristián Maas 2023</p>
                     </div>
+                    <p class="m-0">
+                        NPN transistor se zkládá ze 3 částí:
+                    </p>
+                    <ul>
+                        <li>
+                            collector - N
+                        </li>
+                        <li>
+                            base - P
+                        </li>
+                        <li>
+                            emitter - N
+                        </li>
+                    </ul>
+                    <p>
+                        Materiál typu P je polovoďič jako křemík(Si), dopovaný jiným materiálem s menším maximálním počtem elektronů, třeba borem(B).
+                    </p>
+                    <p>
+                        Materiál typu N je podobný typu P, ale křemík(Si) je dopovaný materiálem s větším maximálním počtem elektronů, třeba fospor(P).
+                    </p>
+                    <p>
+                        Elektrický proud proudí z collectoru do emitteru.
+                    </p>
+                    <p>
+                        NPN tranzistor funguje tak, že proud od collectoru do emitteru může jen proudit, když jde do base proud.
+                    </p>
                 </div>
                 <div class="container-fluid mb-5">
                     <h3 id="solar">
-                        solární panely
+                        Solární panely
                     </h3>
+                    <h5>
+                        Z čeho se zkládají
+                    </h5>
+                    <p>
+                        Podobně jako u tranzistorů obsahuje materiál typu N i P.
+                    </p>
+                    <p class="m-0">
+                        Zkládá se z vrstev:
+                    </p>
+                    <ul>
+                        <li>
+                            Tvrzené sklo
+                        </li>
+                        <li>
+                            Vodič, tvořící mřížku
+                        </li>
+                        <li>
+                            Vrstva materialu, který zmenšuje energetickou ztrátu(ARC)
+                        </li>
+                        <li>
+                            Materiál typu N
+                        </li>
+                        <li>
+                            Materiál typu P
+                        </li>
+                        <li>
+                            Vodič
+                        </li>
+                    </ul>
+                    <h5>
+                        Jak fungují
+                    </h5>
+                    <p>
+                        První vrsta až k vrstvě s materiálem N jsou užší aby skrz ně dobře procházelo světlo.
+                    </p>
+                    <p>
+                        Světlo proniká skrz vrstvy až do vrstvy s materálem N a P, kde se část světla vstřebá a část odrazí, část která se vstřebá tak posune elektrony směrem k materiálu typu N.
+                    </p>
                 </div>
                 <div class="container-fluid mb-5">
                     <h3 id="QR">
-                        error correction v QR kódech
+                        Error correction v QR kódech
                     </h3>
+                    <h5>
+                        O QR kódech
+                    </h5>
+                    <p>
+                        Nejdřív jsem se zajímal o to jak fungují QR kódy, zjistil jsem jaká část QR kódu znamená co, ale zasekl jsem se u oprav chyb ve čtení.
+                    </p>
+                    <h5>    
+                        error correction
+                    </h5>
+                    <p>
+                        Má 4 typy:
+                    </p>
+                    <ul>
+                        <li>
+                            L ~7%
+                        </li>
+                        <li>
+                            M ~15%
+                        </li>
+                        <li>
+                            Q ~25%
+                        </li>
+                        <li>
+                            H ~30%
+                        </li>
+                    </ul>
+                    <p>
+                        Většinou se stupeň opravy určý automaticky.
+                    </p>
+                    <p>
+                        Pří manuálním výběru musí člověk myslet na to, že větší stupeň znamená víc dat, což při menší velikosti QR kódu může vést k chybování. Větší stupeň opravy umožňuje vložení loga do QR kódu.
+                    </p>
+                    <h5>
+                        Matika
+                    </h5>
+                    <p>
+                        Opravy jsou vykonány pomoci Reed–Solomon kódú, které jsem se snažil pochopit, ale nakonec selhal.
+                    </p>
                 </div>
 
             </div>
