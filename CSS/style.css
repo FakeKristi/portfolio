@@ -2,13 +2,13 @@
     background-color: #313539;
 }
 .footer-text {
-    color: #818589;
+    color: #989D9F;
     font-size: .8rem;
 }
 .footer-link {
-    color: #818589;
+    color: #989D9F;
     text-decoration: none;
 }
 html.dark {
     color-scheme: dark;
-}   
+}
