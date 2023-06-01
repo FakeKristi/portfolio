@@ -14,6 +14,8 @@ dokumentace obsahuje zrdoje grafiky a postup tvorby a další
 Dokumentace k ročníkové práci 1.I
 Kristián Maas
 
+obsah dokumentace:
+xx
 
 použit technologie
     motion canvas - grafika(videa)
