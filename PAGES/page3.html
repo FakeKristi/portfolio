@@ -31,13 +31,10 @@
                         <a href="page2.html" class="nav-link">Zvědavost</a>
                     </li>
                     <li class="nav-item">
-                        <a href="page3.html" class="nav-link active">Aktuální projekt</a>
+                        <a href="page3.html" class="nav-link active">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a href="page4.html" class="nav-link">Galerie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="page5.html" class="nav-link">Minecraft</a>
                     </li>
                 </ul>
             </div>
@@ -51,13 +48,10 @@
                         <div class="card-header"><h5>Obsah stránky</h5></div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item bg-dark">
-                                <a href="#about" class="text-white">O čem je?</a>
+                                <a href="#posts" class="text-white">Příspěvky</a>
                             </li>
                             <li class="list-group-item bg-dark">
-                                <a href="#end" class="text-white">Co je cílem?</a>
-                            </li>
-                            <li class="list-group-item bg-dark">
-                                <a href="#problems" class="text-white">Problémy</a>
+                                <a href="#projekty" class="text-white">Projekty</a>
                             </li>
                         </ul>
                     </div>    
@@ -65,52 +59,80 @@
             </div>
             <div class="col-md-6 p-0">
                 <h2 class="text-center">
-                    Aktuální projekt
+                    Galerie
                 </h2>
-                <div class="container-fluid mb-5">
-                    <h3 id="about">
-                        O čem je?
+                <div class="container-fluid mb-2">
+                    <h3 id="posts">
+                        Příspěvky
                     </h3>
-                    <p>
-                        Zaujal mě rgb 64x64 matrix display a tak po dlouhém přemýšlení jsem si ho koupil a k němu i raspberry pi pico, abych měl jak ho ovládat.
-                    </p>
-                    <p>
-                        Koupil jsem to na 
-                        <a href="https://rpishop.cz/" target="_blank">rpishop.cz</a>
-                        ,což je eshop, který prodává raspberry pi a další různé elektronické součástky, síťové prvky, hlavolamy, atd.
-                    </p>
+                    <div class="row">
+                        <div class="col-md-6 mb-2">
+                            <a href="posts/wedos.html" class="text-white text-decoration-none">
+                                <div class="card bg-dark" >
+                                    <img class="card-img-top" src="../media/thumbnails/wedos.png" alt="wedos_thumbnail">
+                                    <div class="card-body">
+                                        <p class="card-text">WEDOS</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <a href="posts/minecraft.html" class="text-white text-decoration-none">
+                                <div class="card bg-dark" >
+                                    <img class="card-img-top" src="../media/thumbnails/minecraft.png" alt="minecraft_thumbnail">
+                                    <div class="card-body">
+                                        <p class="card-text">Minecraft</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                   </div>
                 </div>
-                <div class="container-fluid mb-5">
-                    <h3 id="end">
-                        Co je cílem?
+                <div class="container-fluid mb-2">
+                    <h3 id="projekty">
+                        Projekty
                     </h3>
-                    <p>
-                        Zprovoznit display, možná i udělat nějaký program, který bude za nějakých podmínek ukazovat něco konkrétního.
-                    </p>
-                    <p>
-                        Nasbírat zkušenosti. Bavit se.
-                    </p>
+                    <div class="row">
+                        <div class="col-md-6 mb-2">
+                            <a href="posts/hangman.html" class="text-white text-decoration-none">
+                                <div class="card bg-dark" >
+                                    <img class="card-img-top" src="../media/thumbnails/hangman.png" alt="hangman_thumbnail">
+                                    <div class="card-body">
+                                        <p class="card-text">Šibenice (hra)</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--CLI hra v pythonu, ve které musí člověk uhodnout náhodné slovo, ve hře se dá uhodnout buď jedno písmeno nebo celé slovo.
+                        GitHub repositář-->
+                        <div class="col-md-6 mb-2">
+                            <a href="posts/maze.html" class="text-white text-decoration-none">
+                                <div class="card bg-dark" >
+                                    <img class="card-img-top" src="../media/thumbnails/maze.png" alt="maze_thumbnail">
+                                    <div class="card-body">
+                                        <p class="card-text">Bludiště (hra)</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Bludiště
+                        CLI hra v pythonu, ve které se hráč musí dostat do cíle pomocí pohybů nahoru, dolů, vpravo, vlevo. Potom co se hráč pokusí o pohyb dostane zprávu jestli se posunul nebo narazil do zdi.
+                        GitHub repositář-->
+
+
+                        <div class="col-md-6 mb-2">
+                            <a href="posts/project1.html" class="text-white text-decoration-none">
+                                <div class="card bg-dark" >
+                                    <img class="card-img-top" src="../media/thumbnails/projekt.jpg" alt="matrix_display_thumbnail">
+                                    <div class="card-body">
+                                        <p class="card-text">Matrix display</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                   </div>
                 </div>
-                <div class="container-fluid mb-5">
-                    <img src="../media/pictures/projekt.jpg" alt="projekt img" class="img-fluid">
-                </div>
-                <div class="container-fluid mb-5">
-                    <h3 id="problems">
-                        Problémy
-                    </h3>
-                    <p>
-                        Nenapadlo mě, že raspberry pico má piny, které jsou nekompatibilní s kabelem, který je pro display, tak jsem to zkusil s mým raspberry pi 4.
-                    </p>
-                    <p>
-                        Zapojil jsem všechny piny do raspberry pi a pak jsem si všimnul, že mi chybí napájecí kabel pro display.
-                    </p>
-                    <h4>
-                        Řešení
-                    </h4>
-                    <p>
-                        Budu si muset koupit header pro pico a napájecí kabel pro display.
-                    </p>
-                </div>
+
             </div>
             <div class="col-md-3 p-0" style="border-left: solid #212529;">
                 
