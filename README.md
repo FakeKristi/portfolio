@@ -1,3 +1,3 @@
 # portfolio
 
-[náhled stránky](https://somekristi.github.io/portfolio/)
+[náhled stránky](https://fakekristi.github.io/portfolio/)
