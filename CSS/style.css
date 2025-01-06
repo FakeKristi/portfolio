@@ -12,3 +12,6 @@
 html.dark {
     color-scheme: dark;
 }
+.emoji {
+    font-family: "Noto Color Emoji", serif;
+}
